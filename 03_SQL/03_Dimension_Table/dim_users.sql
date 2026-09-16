@@ -1,0 +1,26 @@
+CREATE TABLE dim_users
+(
+    UserID INT PRIMARY KEY,
+    Person NVARCHAR(100),
+    CurrentAge INT,
+    RetirementAge INT,
+    BirthYear INT,
+    BirthMonth INT,
+    Gender NVARCHAR(20),
+    Address NVARCHAR(255),
+    Apartment INT NULL,
+    City NVARCHAR(100),
+    State NVARCHAR(50),
+    Zipcode INT,
+    Latitude DECIMAL(9,6),
+    Longitude DECIMAL(9,6),
+    PerCapitaIncome DECIMAL(18,2),
+    YearlyIncome DECIMAL(18,2),
+    TotalDebt DECIMAL(18,2),
+    FICOScore INT,
+    NumCreditCards INT,
+    AgeGroup NVARCHAR(20),
+    FICOCategory NVARCHAR(30),
+    DebtToIncomeRatio DECIMAL(10,2),
+    IncomeGroup NVARCHAR(30)
+);

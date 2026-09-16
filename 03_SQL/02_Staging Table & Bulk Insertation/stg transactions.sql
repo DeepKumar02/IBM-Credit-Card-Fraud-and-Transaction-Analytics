@@ -1,0 +1,26 @@
+CREATE TABLE stg_transactions
+(
+    [User] INT,
+    Card INT,
+    [Year] INT,
+    [Month] INT,
+    [Day] INT,
+    [Time] NVARCHAR(20),
+    Amount FLOAT,
+    [Use Chip] NVARCHAR(50),
+    [Merchant Name] BIGINT,
+    [Merchant City] NVARCHAR(100),
+    [Merchant State] NVARCHAR(50),
+    Zip FLOAT NULL,
+    MCC INT,
+    [Errors?] NVARCHAR(100),
+    [Is Fraud?] NVARCHAR(10),
+    [Transaction Date] DATE,
+    [Transaction Hour] INT,
+    [Day Name] NVARCHAR(20),
+    [Month Name] NVARCHAR(20),
+    Quarter INT,
+    [Is Weekend] NVARCHAR(10),
+    [Time of Day] NVARCHAR(20),
+    [Amount Category] NVARCHAR(30)
+);

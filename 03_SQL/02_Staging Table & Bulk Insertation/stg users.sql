@@ -1,0 +1,26 @@
+CREATE TABLE stg_users
+(
+    [User] INT,
+    Person NVARCHAR(100),
+    [Current Age] INT,
+    [Retirement Age] INT,
+    [Birth Year] INT,
+    [Birth Month] INT,
+    Gender NVARCHAR(20),
+    Address NVARCHAR(255),
+    Apartment FLOAT NULL,
+    City NVARCHAR(100),
+    State NVARCHAR(50),
+    Zipcode INT,
+    Latitude FLOAT,
+    Longitude FLOAT,
+    [Per Capita Income - Zipcode] FLOAT,
+    [Yearly Income - Person] FLOAT,
+    [Total Debt] FLOAT,
+    [FICO Score] INT,
+    [Num Credit Cards] INT,
+    [Age Group] NVARCHAR(20),
+    [FICO Category] NVARCHAR(30),
+    [Debt to Income Ratio] FLOAT,
+    [Income Group] NVARCHAR(30)
+);
