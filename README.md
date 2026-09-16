@@ -1,14 +1,14 @@
-# IBM Credit Card Fraud & Transaction Analytics
+# 💳 IBM Credit Card Fraud & Transaction Analytics
 
 End-to-end Credit Card Fraud and Transaction Analytics project using **Python, SQL Server, and Power BI**. It includes data cleaning, feature engineering, Data Modelling, EDA, and interactive dashboards to analyze credit card transactions, customer behavior, card characteristics, merchant activity, time-based patterns, and fraud risk that support data-driven decision-making.
 
 > **Dataset source:** IBM Credit Card Fraud Detection dataset, downloaded from Kaggle.
 
-## Project Overview
+## 📌 Project Overview
 
 **Dataset → Python Cleaning → SQL Server → Data Modeling → SQL Analysis & Views → Power BI Dashboard → Business Insights**
 
-The transaction data contains approximately **24.39 million records** and the fact table is around **4 GB**. Because of its size, the detailed transaction fact table is stored in SQL Server and is **not imported directly into Power BI**. Aggregated SQL reporting views are used for Power BI reporting.
+The transaction data contains approximately **24.39 million records** and the fact table is around **5.6GB**. Because of its size, the detailed transaction fact table is stored in SQL Server and is **not imported directly into Power BI**. Aggregated SQL reporting views are used for Power BI reporting.
 
 ## Objectives
 
