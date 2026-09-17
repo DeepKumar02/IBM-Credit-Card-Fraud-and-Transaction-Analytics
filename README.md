@@ -24,7 +24,9 @@ The objective was to transform raw transactional data into meaningful insights t
 ## 📂 Dataset
 
 **Source**: IBM Credit Card Fraud Detection dataset, downloaded from Kaggle.
+
 **Link**: https://www.kaggle.com/code/yichenzhang1226/ibm-credit-card-fraud-detection-eda-random-forest/input
+
 **Note**: The raw and cleaned transaction data are **not included in this repository** because the transaction dataset is approximately **5.6** GB.
 
 The project uses multiple datasets including:
