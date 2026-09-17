@@ -56,6 +56,7 @@ The SQL Server database uses a fact-and-dimension structure.
 Dimension Tables
 - dim_users
 - dim_cards
+
 Fact Table
 - fact_transactions
 
