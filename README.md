@@ -313,7 +313,7 @@ This approach reduces the amount of data handled directly by Power BI while reta
 ## 📁 Repository Structure
 
 ```text
-IBM-Credit-Card-Fraud-Transaction-Analytics/
+IBM-Credit-Card-Fraud-and-Transaction-Analytics/
 │
 ├── README.md
 │
@@ -344,6 +344,6 @@ IBM-Credit-Card-Fraud-Transaction-Analytics/
 
 **Deep Kumar**
 
-## ⭐ If you found this project useful, consider giving it a Star.
+#### ⭐ If you found this project useful, consider giving it a Star.
 
 ---
